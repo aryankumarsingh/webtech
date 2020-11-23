@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.nav{
+background-color: royalblue;
+
+}
+.menu-bar{
+    
+}
+.logo{
+    width: 12%;
+    border: 2px #000000;
+    border-radius: 70%;
+}
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 158px;
+    color: rgb(4, 16, 121);
+
+}
+.list li{
+    padding: 7px 45px;
+}
+.searchbox{
+    
+    padding: 9px 71px;
+    position: relative;
+    left: 40%;
+    top: -40px;
+}
+.button{
+    border-radius: 28px;
+    border-style: solid;
+    padding: 6px 28px;
+    position: relative;
+    left: 26%;
+    top: -2px
+}
+.quotes{
+    font-size: 46px;
+    padding: 75px 0px;
+    font-family: fangsong;
+    color: white;
+}
+.para1{
+    font-size: 20px;
+    color: lightcyan;
+    position: relative;
+    bottom: 40px;
+    left: 470px
+}

@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.nav{
+background-color: royalblue;
+
+}
+.logo2{
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    left: 147px;
+    top: 29px;
+    font-size: 37px;
+}
+.background{
+    background-image: url(college.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo{
+    width: 12%;
+    border: 2px #000000;
+    border-radius: 70%;
+}
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 158px;
+    position: sticky;
+
+}
+.list li{
+    padding: 7px 45px;
+}
+.searchbox{
+    
+    padding: 9px 71px;
+    position: relative;
+    left: 40%;
+    top: -40px;
+}
+.button{
+    border-radius: 28px;
+    border-style: solid;
+    padding: 6px 28px;
+    position: relative;
+    left: 26%;
+    top: -2px
+}
+#searchbutton:hover{
+    background-color: cyan;
+}
+.quotes{
+    font-size: 46px;
+    padding: 75px 0px;
+    font-family: fangsong;
+    color: white;
+    text-align: center;
+}
+.para1{
+    font-size: 20px;
+    color: lightcyan;
+    position: relative;
+    bottom: 40px;
+    left: 470px
+}
+.iithead{
+    font-family: 'Bevan';
+    text-align: center;
+    font-size: 63px;
+    padding-top: 20px;
+    
+}
+.row1{
+    display: flex;
+}
+.column1{
+    flex: 33.33%;
+    padding-left: 13%;
+    
+}
+.row1img{
+    display: flex;
+}
+.column1img{
+    flex: 33.33%;
+    padding-left: 7.5%;
+    
+}
+.one{
+    padding: 45px 0px;
+}
+.rowbtn1{
+    display: flex;
+}
+.columnbtn1{
+    flex: 33.33%;
+    background-color: rgb(245, 138, 138);
+  border: none;
+  text-decoration: none;
+  color: black;
+  padding: 0px 32px;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+    margin: 1% 11%;
+    border-radius: 40px;
+    position: relative;
+    left: 23px;
+}
+.columnbtn1:hover{
+    background-color: rgb(247, 55, 55);
+    
+}
+.row2{
+    display: flex;
+}
+.column2{
+    flex: 50%;
+    padding-left: 18%;
+    margin: 6px;
+    
+}
+.row2img{
+    display: flex;
+}
+.column2img{
+    flex: 50%;
+    padding-left: 14%;    
+}
+.rowbtn2{
+    display: flex;
+}
+.columnbtn2{
+    /* flex: 50%; */
+    background-color: rgb(245, 138, 138);
+  border: none;
+  color: black;
+  padding: 0px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+    margin: 1% 19%;
+    border-radius: 40px;
+
+}
+.columnbtn2:hover{
+    background-color: rgb(247, 55, 55);
+}
+a{
+    text-decoration: none;
+}
+.bombayimg{
+    border: 5px solid #555;
+    border-radius: 74%;
+}
+.madrasimg{
+    border: 5px solid #555;
+    border-radius: 74%;
+}
+.delhiimg{
+    border: 5px solid #555;
+    border-radius: 74%;
+}
+.kharagpurimg{
+    border: 5px solid #555;
+    border-radius: 74%;
+
+}
+.kanpurimg{
+    border: 5px solid #555;
+    border-radius: 74%;
+
+}
+.desp{
+    height: 200px;
+    width: 95%;
+    background-color: #fe0e76;
+    position: relative;
+    left: 2.5%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 39px;     
+}
+.colleges{
+    text-align: center;
+    position: relative;
+    top: 24%;
+    color: white;
+    font-size: 20px;
+}
+.footer {
+    width: 98%;
+    height: 179px;
+    background-color: #898989;
+    color: white;
+    position: relative;
+    left: 1%;
+    
+  }
+  #contact{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  .info{
+      position: relative;
+      left: 5%;
+      font-size: 20px;
+  }
+ 
